@@ -37,7 +37,7 @@ View(storms)
 
     ***CHAT BOT NAME:***
 
-2)  *Let's see how well you chat bot does as far as helping with workflow development.* Ask the chat bot to write code (in R) that tests the hypothesis that tropical depressions have lower air pressures than subtropical depressions. (Hint: The chat bot will need some context about the hurricanes data set to adequately answer this question. At a minimum, copy and paste the variable description file into the chat bot with your question. Or, depending on the chat bot you select, you might also be able to upload the data frame itself!) 1 point.
+2)  *Let's see how well you chat bot does as far as helping with workflow development.* Ask the chat bot to write code (in R) that tests the hypothesis that tropical depressions have lower air pressures than subtropical depressions. (Hint: The chat bot will need some context about the hurricanes data set to adequately answer this question. At a minimum, copy and paste the variable description file into the chat bot with your question. Or, you might also be able to upload the data frame itself!) 1 point.
 
     ***QUESTION POSED TO CHAT BOT:***
 
@@ -49,9 +49,9 @@ View(storms)
 
     ***CHAT BOT RESPONSE:***
 
-4)  In the workflow above, did the chat bot provide code for determining whether the tropical depression and subtropical depression observations meet the assumptions of the test?\* 0.5 points.
+4)  In the workflow above, did the chat bot provide code for determining whether the tropical depression and subtropical depression observations meet all the assumptions of the test?\* 0.5 points.
 
-*\*Chances are, the chat bot performed a student's t-test on the raw storm data without testing whether the groups have equal variances. Moreover, time series data almost always has autocorrelation, meaning that observations are correlated with their past values. This violates the independence assumption of a t-test. If the chat bot performed the t-test on an unmodified version of the data, it violated the rules of a t-test.*
+*\*Time series data almost always has autocorrelation, meaning that observations are correlated with their past values. This violates the independence assumptions of many tests. If the chat bot performed the t-test or a Wilcoxon Rank-Sum on an unmodified version of the data, it violated the rules of those tests.*
 
 4)  If the chatbot did not, ask it to re-write the workflow to test whether the dataset meets the assumptions of the selected statistical test. 0.5 points.
 

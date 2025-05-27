@@ -80,7 +80,7 @@ AI models like DeepSeek, powered by natural language processing, can be valuable
 
 2)  `02-using_ai.Rmd` - Follow the questions/prompts in this document to post to a chat bot. **Save a copy of this file as '02-using_ai_YOURNAME.Rmd' to put your responses in.**
 
-#### When you have completed both the code debugging assignment and the AI models assignment, submit your completed assignment files to us _______.
+#### When you have completed both the code debugging assignment and the AI models assignment, submit both completed assignment files.
 
 **Cited Source**
 
